@@ -43,3 +43,59 @@
 .flex-wrap-reverse{
     flex-wrap: wrap-reverse;
 }
+
+
+/*flex item order. must have order in every item.*/
+.item-order{
+    order: 1;
+}
+.item-order-2{
+    order: 2;
+}
+.item-order-3{
+    order: 3;
+}
+/*flex item order ends*/
+
+.item-grow-example{
+    /*grow example*/
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row wrap;
+        align-items: stretch;
+        }
+      .box-example{
+        flex-grow: 1;
+        border: 3px solid black;
+      }
+      
+      .box-example-1 {
+        flex-grow: 2;
+        border: 3px solid black;
+      }
+
+/*item grow example end*/
+
+/*flex item grow. higher number the bigger box*/
+.item-grow{
+    flex-grow: 1;
+}
+.item-grow-1{
+    flex-grow: 2;
+}
+.item-grow-2{
+    flex-grow: 3;
+}
+/*flex item grow end*/
+
+/*item shrink. the higher number the smaller box.*/
+.item-shrink{
+    flex-shrink:0;
+}
+.item-shrink-1{
+    flex-shrink:1;
+}
+.item-shrink-2{
+    flex-shrink:2;  
+}
+/*item shrink end*/
