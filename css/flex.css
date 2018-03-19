@@ -29,16 +29,20 @@
     display:flex;
     justify-content: space-between;
 }
-/*Flex row items*/
 
-/*Flex nowrap flex items wil be on one line*/
+
+/*Flex-wrap, moves items horizontalty within the container, <---> */
+
+/*Flex nowrap flex items will be on one line*/
 .flex-nowrap{
     flex-wrap: nowrap;
 }
+
 /*Flex wrap wraps onto multiple lines from top to bottom*/
 .flex-wrap{
     flex-wrap: wrap;
 }
+
 /*Flex wrap reverse, wraps onto multiple lines from bottom to top*/
 .flex-wrap-reverse{
     flex-wrap: wrap-reverse;
