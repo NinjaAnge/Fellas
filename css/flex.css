@@ -124,3 +124,45 @@
     align-content: stretch;
 }
 /*align content ends here*/
+
+
+.flex{
+    display:flex;
+    flex: 0 0 200px;
+}
+
+
+/* Align-self: specifies the aligments (stats) of an specific element/item */
+/** will only affect the specific element/item and not the other ones in the same row/column **/
+
+/*align-self:center will align the item to the center of the container, without affecting the others*/
+/** example: second one = align-self:     # - #   where it goes to the center of the row/column **/
+
+.flex-selfalign-center{
+    display:flex;
+    align-self:center;
+}
+
+/* align-self:flex-start will align the item to the top of the container (within the row/column)*/
+/** example: # " #  where the " goes to the top of the element**/
+
+.flex-selfalign-start{
+    display:flex;
+    align-self:flex-start;
+}
+
+/* align-self:flex-end  will align the item to the bottom of the container (within the row/column */
+/** example:  # _ #  where the element _ goes to the bottom of the container. **/
+
+.flex-selfalign-end{
+    display:flex;
+    align-self: flex-end;
+}
+
+
+/* align-self:stretch  will stretch the item to fit the container.
+/** example: # # #  where the element is stretched to fit the element (still respecting min and max width).. **/
+
+.flex-selfalign-stretch{
+    display:flex;
+    align-self:stretch;
