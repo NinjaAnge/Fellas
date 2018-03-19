@@ -99,6 +99,7 @@
     flex-shrink:2;  
 }
 /*item shrink end*/
+ 
 /*align content starts here*/
 .flexbox-align-content-start{
     align-content: flex-start;
