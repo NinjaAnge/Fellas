@@ -1,0 +1,66 @@
+body{
+  margin: 0px;
+}
+
+
+/* Grid */
+.grid-layout-nosidebar{
+  display: grid;
+  height: 100vh;
+  grid-template: 2em 1fr 2em / 1fr;
+  grid-template-areas:
+  "nav"
+  "main"
+  "footer";
+}
+.grid-layout-siderbar-left{
+  display: grid;
+  grid-template-areas:
+  "nav nav"
+  "sidebar main"
+  "footer footer";
+}
+
+/* grid areas */
+
+/* Nav */
+.grid-nav{
+  grid-area: nav;
+  background-color:blue;
+}
+/* sidebar */
+.grid-sidebar{
+  grid-area: sidebar;
+  background-color: red;
+}
+.grid-main{
+  grid-area: main;
+  background-color: orange;
+}
+.grid-footer{
+  grid-area: footer;
+  background-color: green;
+}
+.grid-layout-vertical-split{
+  display: grid;
+  grid-template:
+  "right left"
+}
+.grid-layout-horizontal-split{
+  display: grid;
+  grid-template:
+  "top"
+  "Bottom"
+}
+.grid-area-right{
+  grid-area: right;
+}
+.grid-area-left{
+  grid-area: left;
+}
+.grid-area-top{
+  grid-area: top;
+}
+.grid-area-bottom{
+  grid-area: bottom;
+}
