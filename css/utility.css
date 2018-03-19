@@ -37,33 +37,33 @@
 /* border's start */
 
 .border-01-solid{
-    border: solid 0.1em black;
+    border: solid 0.1em;
   }
   .border-02-solid{
-    border: solid 0.2em black;
+    border: solid 0.2em; 
   }
   .border-001-solid{
-    border: solid 0.01em black;
+    border: solid 0.01em; 
   }
   
   .border-01-dashed{
-    border: dashed 0.1em black;
+    border: dashed 0.1em; 
   }
   .border-02-dashed{
-    border: dashed 0.2em black;
+    border: dashed 0.2em; 
   }
   .border-001-dashed{
-    border: dashed 0.01em black;
+    border: dashed 0.01em;
   }
   
   .border-01-ridge{
-    border: ridge 0.1em white;
+    border: ridge 0.1em;
   }
   .border-02-ridge{
-    border: ridge 0.2em white;
+    border: ridge 0.2em;
   }
   .border-001-ridge{
-    border: ridge 0.01em white;
+    border: ridge 0.01em;
   }
 
   /* border's end* /
