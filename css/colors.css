@@ -129,12 +129,12 @@
 .form-button{
   color: inherit;
 }
-:hover .form-button{
+.form-button:hover{
   background-color:  #FF69B4;
 }
-:disabled .form-button{
+.form-button:disabled {
     background-color: #303030;
 }
-:active .form-button{
+.form-button:active {
   background-color: #f2f2f2;
 }
