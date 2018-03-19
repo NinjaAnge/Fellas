@@ -170,3 +170,18 @@
 
 
 
+/*flex direction*/
+
+/*flex-direction-row  to make the elements go in a line horisontaly */
+
+.flex-direction-row{
+    display:flex;
+    flex-direction:row;
+}
+
+/*flex-direction-column  make the elements go in a line vertically */
+
+.flex-direction-column{
+    display:flex;
+    flex-direction:column;
+}
