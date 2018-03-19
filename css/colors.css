@@ -125,3 +125,16 @@
 .highlight {
     color: #fafafa;
 }
+
+.form-button{
+  color: inherit;
+}
+:hover .form-button{
+  background-color:  #FF69B4;
+}
+:disabled .form-button{
+    background-color: #303030;
+}
+:active .form-button{
+  background-color: #f2f2f2;
+}

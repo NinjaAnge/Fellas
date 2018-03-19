@@ -4,21 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/css/flex.css">
+    <link rel="stylesheet" href="../css/flex.css">
+    <link rel="stylesheet" href="../css/colors.css">
     <title>Flexbox 101</title>
 </head>
 <body>
-    
+    <!--headline-->
     <div> 
         <h2 style="border-bottom: solid 2px black;">Fellas Flexbox 101 </h2>
     </div>
+
+    <!--flexbox-start-->
+    <div class="primary-dark-bg" style="border: solid 1px black;">
+        <h3> **Flex-display** = "Makes the display flexible."</h3>
+    </div>
+
+    <div class="primary-light-bg" style="border: dotted 1px black;"> 
+        <ul>
+            <li>flex-display</li>
+        </ul>
+    </div>
+
         <!--justify-content-->
-        <div style="border: solid 1px black;">
+        <div class="danger-bg" style="border: solid 1px black;">
         <h3> **Justify Content** = Moves elements horizontaly within the container. </h3>
-  
+
         </div>
 
-        <div style="border: dotted 1px black;">
+        <div class="danger-light-bg" style="border: dotted 1px black;">
             <ul>
                 <li> flex-justify-center = "center elements in the middle of the container" </li>
                 <li> flex-justify-start = "place the elements in the beginning of the container" </li>
@@ -28,24 +41,107 @@
                 <li> flex-justify-space-between = "Adds space between the elements in the container" </li>
             </ul>
         </div>
+
+        <!--flex-direction-->
+            <div class="success-bg" style="border: solid 1px black;">
+                        <h3> **Flex-direction** </h3>
+                       
+            </div>
+                       
+            <div class="success-light-bg" style="border: dotted 1px black;">
+                <ul>
+                    <li> flex-direction-row = "Makes the elements go in a line horizontally" </li>
+                    <li> flex-direction-column = "Makes the elements go in a line vertically" </li>
+                </ul>
+            </div>
+
         <!--flex-wrap-->
-        <div style="border: solid 1px black;">
+        <div class="warning-bg" style="border: solid 1px black;">
                 <h3> **Flex-wrap** = Moves items horizontaly within the container. </h3>
           
         </div>
 
-        <div style="border: dotted 1px black;"> 
+        <div class="warning-light-bg" style="border: dotted 1px black;"> 
             <ul>
-                <li>flex-nowrap = "Flex nowrap flex items will be on one line" </li>
-                <li>flex-wrap = "Flex wrap wraps onto multiple lines from top to bottom" </li>
-                <li>flex-wrap-reverse = "Flex wrap reverse, wraps onto multiple lines from bottom to top" </li>
+                <li>flex-nowrap = "flex items will be on one line" </li>
+                <li>flex-wrap = "wraps onto multiple lines from top to bottom" </li>
+                <li>flex-wrap-reverse = "wraps onto multiple lines from bottom to top" </li>
             </ul>
         </div>
 
+        <!--align-content-->
+            <div class="secondary-bg" style="border: solid 1px black;">
+                    <h3> **Align-content** = Distributes space-between and around items vetrically within the container. </h3>
+                
+            </div>
+                
+            <div class="secondary-light-bg" style="border: dotted 1px black;">
+                <ul>
+                    <li> flex-align-content-start = "Lines packed to the start of the container" </li>
+                    <li> flex-align-content-end = "Lines packed to the end of the container" </li>
+                    <li> flex-align-content-center = "Lines packed to the center of the container" </li>
+                    <li> flex-align-content-space-between = "Lines evenly distributed; the first line is at the start of the container while the last one is at the end" </li>
+                    <li> flex-align-content-space-around = "Lines evenly distributed with equal space around each line" </li>
+                    <li> flex-align-content-stretch = "Lines stretch to take up the remaining space" </li>
+                </ul>
+            </div>
 
+            <!--align-self-->
+            <div style="border: solid 1px black;">
+                    <h3> **Align-self** = Specifies the aligments (stats) of an specific element/item. </h3>
+                
+            </div>
+                
+            <div style="border: dotted 1px black;">
+                <ul>
+                    <li> flex-align-self-start = "Will align the item to the top of the container (within the row/column)" </li>
+                    <li> flex-align-self-end = "Will align the item to the bottom of the container (within the row/column)" </li>
+                    <li> flex-align-self-center = "Will align the item to the center of the container, without affecting the others" </li>
+                    <li> flex-align-self-stretch = "Will stretch the item to fit the container." </li>
+                </ul>
+            </div>
 
+        <!--item order-->
+        <div class="primary-dark-bg" style="border: solid 1px black;">
+                <h3> **Item-order** = Flex item order. must have order in every item. </h3>
+          
+        </div>
 
+        <div class="primary-light-bg" style="border: dotted 1px black;"> 
+            <ul>
+                <li> item-order </li>
+                <li> item-order-2 </li>
+                <li> item-order-3 </li>
+            </ul>
+        </div>
 
+        <!--item-grow-->
+        <div class="danger-bg" style="border: solid 1px black;">
+                <h3> **Item-grow** = Higher number the bigger box. </h3>
+           
+        </div>
+
+        <div class="danger-light-bg" style="border: dotted 1px black;"> 
+            <ul>
+                <li> item-grow </li>
+                <li> item-grow-1 </li>
+                <li> item-grow-2 </li>
+            </ul>
+        </div>
+
+        <!--Item-shrink-->
+        <div class="success-bg" style="border: solid 1px black;">
+                <h3> **item shrink** = The higher number the smaller box </h3>
+                   
+        </div>
+        
+         <div class="success-light-bg" style="border: dotted 1px black;"> 
+             <ul>
+                <li> item-grow </li>
+                <li> item-shrink-1 </li>
+                <li> item-shrink-2 </li>
+             </ul>
+        </div>
 
 </body>
 </html>
