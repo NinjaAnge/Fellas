@@ -125,3 +125,25 @@
 .highlight {
     color: #fafafa;
 }
+
+
+:hover .form-button{
+  background-color:  #FF69B4;
+}
+:disabled .form-button{
+    background-color: #303030;
+}
+:active .form-button{
+  background-color: #f2f2f2;
+}
+
+
+:hover{
+  background-color:  #FF69B4;
+}
+:disabled{
+  background-color: #303030;
+}
+:active{
+  background-color: #f2f2f2;
+}
