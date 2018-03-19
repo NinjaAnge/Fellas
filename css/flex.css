@@ -99,3 +99,23 @@
     flex-shrink:2;  
 }
 /*item shrink end*/
+/*align content starts here*/
+.flexbox-align-content-start{
+    align-content: flex-start;
+}
+.flexbox-align-content-end{
+    align-content: flex-end;
+}
+.flexbox-align-content-center{
+    align-content: center;
+}
+.flexbox-align-content-space-between{
+    align-content: space-between;
+}
+.flexbox-align-content-space-around{
+    align-content: space-around;
+}
+.flexbox-align-content-stretch{
+    align-content: stretch;
+}
+/*align content ends here*/
