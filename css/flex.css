@@ -126,9 +126,8 @@
 /*align content ends here*/
 
 
-.flex{
+.flex-display{
     display:flex;
-    flex: 0 0 200px;
 }
 
 
