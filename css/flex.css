@@ -105,22 +105,22 @@
 /*item shrink end*/
  
 /*align content starts here*/
-.flexbox-align-content-start{
+.flex-align-content-start{
     align-content: flex-start;
 }
-.flexbox-align-content-end{
+.flex-align-content-end{
     align-content: flex-end;
 }
-.flexbox-align-content-center{
+.flex-align-content-center{
     align-content: center;
 }
-.flexbox-align-content-space-between{
+.flex-align-content-space-between{
     align-content: space-between;
 }
-.flexbox-align-content-space-around{
+.flex-align-content-space-around{
     align-content: space-around;
 }
-.flexbox-align-content-stretch{
+.flex-align-content-stretch{
     align-content: stretch;
 }
 /*align content ends here*/
@@ -138,7 +138,7 @@
 /*align-self:center will align the item to the center of the container, without affecting the others*/
 /** example: second one = align-self:     # - #   where it goes to the center of the row/column **/
 
-.flex-selfalign-center{
+.flex-align-self-center{
     display:flex;
     align-self:center;
 }
@@ -146,7 +146,7 @@
 /* align-self:flex-start will align the item to the top of the container (within the row/column)*/
 /** example: # " #  where the " goes to the top of the element**/
 
-.flex-selfalign-start{
+.flex-align-self-start{
     display:flex;
     align-self:flex-start;
 }
@@ -154,7 +154,7 @@
 /* align-self:flex-end  will align the item to the bottom of the container (within the row/column */
 /** example:  # _ #  where the element _ goes to the bottom of the container. **/
 
-.flex-selfalign-end{
+.flex-align-self-end{
     display:flex;
     align-self: flex-end;
 }
@@ -163,6 +163,7 @@
 /* align-self:stretch  will stretch the item to fit the container.
 /** example: # # #  where the element is stretched to fit the element (still respecting min and max width).. **/
 
-.flex-selfalign-stretch{
+.flex-align-self-stretch{
     display:flex;
     align-self:stretch;
+}
