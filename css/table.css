@@ -1,0 +1,12 @@
+caption, table, td, tr, th, tfoot {
+    border: 1px solid #000000;
+  }
+  table {border-collapse: collapse;
+  }
+  caption {background-color: #00BFFF
+  }
+  td {text-align: center;}
+
+  td:hover{
+      background-color: aqua;
+  }
