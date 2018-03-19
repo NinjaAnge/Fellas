@@ -5,7 +5,7 @@
     display: flex;
 }
 
-.box-200-px{
+.box-200{
     border: solid;
     width: 200px;
     height: 200px;  
@@ -23,5 +23,5 @@
 }
 
 .text-center {
-    text-align:center;  
+    text-align: center;  
 } 
