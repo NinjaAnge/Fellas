@@ -1,0 +1,22 @@
+.container-timeline-card{
+    display:flex;
+    height:5em;
+    width:7em;
+}
+
+/*order class, decide which order the container goes in the div (need to be modified)*/
+
+.order1{
+    display:flex;
+    order:1;
+}
+
+.order2{
+    display:flex;
+    order:2;
+}
+
+.order3{
+    display:flex;
+    order:3;
+}
