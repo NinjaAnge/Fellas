@@ -1,0 +1,21 @@
+/*card with grid + grid + flex */
+
+.grid-card-layout{
+    display:grid;
+    grid-template-rows: 10% 1fr 10%;
+    grid-template-columns:10% 1fr 10%;
+    height:100%;
+}
+
+.grid-card-inside-layout{
+    display:grid;
+    grid-template-rows: 40% 60%;
+    grid-template-columns: 50% 50%;
+    height:100%;
+}
+
+.grid-card-navbar{
+    display:grid;
+    grid-template-rows: 1 / 4;
+    grid-template-columns: 1 / 4;
+}

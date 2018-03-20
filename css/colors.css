@@ -1,5 +1,5 @@
 .primary {
-    color: #0088ce;
+    color: #181818;
 }
 
 .primary-dark {
@@ -11,11 +11,11 @@
 }
 
 .primary-bg {
-    background-color: #FF69B4;
+    background-color: #C7C7C7;
 }
 
 .primary-dark-bg {
-    background-color: #00659c;
+    background-color: #181818;
 }
 
 .primary-light-bg {
@@ -23,7 +23,7 @@
 }
 
 .secondary {
-    color: #72767b;
+    color: #C7C7C7;
 }
 
 .secondary-dark {
@@ -129,12 +129,12 @@
 .form-button{
   color: inherit;
 }
-:hover .form-button{
-  background-color:  #FF69B4;
+.form-button:hover{
+  background-color: #C0C0C0 ;
 }
-:disabled .form-button{
+.form-button:disabled {
     background-color: #303030;
 }
-:active .form-button{
+.form-button:active {
   background-color: #f2f2f2;
 }
