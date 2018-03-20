@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../css/Templol.css">
     <link rel="stylesheet" href="../css/utility.css">
     <link rel="stylesheet" href="../css/visual.css">
+    <link rel="stylesheet" href="../css/forms.css">
     <!-- CSS end -->
     <title>Code library</title>
  </head>
@@ -23,23 +24,23 @@
       <div class="grid-main">
         <h1>Fellas Forms</h1>
         <p>form-label: label style</p>
-        <label>This is some label text</label>
+        <label class="form-label">This is some label text</label>
         <p>form-button: button style</p>
-        <button>Confirm</button>
+        <button class="form-button">Confirm</button>
         <p>form-text: textbox style</p>
-        <input type="text" placeholder="Sometext">
+        <input class="form-text" type="text" placeholder="Sometext">
         <p>form-radio: radio button style</p>
-        <input type="radio" name="abc" value="a">a</input>
-        <input type="radio" name="abc" value="b">b</input>
-        <input type="radio" name="abc" value="c">c</input>
+        <input class="form-radio" type="radio" name="abc" value="a">a</input>
+        <input class="form-radio" type="radio" name="abc" value="b">b</input>
+        <input class="form-radio" type="radio" name="abc" value="c">c</input>
         <p>form-checkbox: checkbox style</p>
         <form action="/action_page.php" method="get">
-          <input type="checkbox" name="movie" value="Movies"> I like movies<br>
-          <input type="checkbox" name="movie" value="Series"> I like series<br>
+          <input class="form-checkbox" type="checkbox" name="movie" value="Movies"> I like movies<br>
+          <input class="form-checkbox" type="checkbox" name="movie" value="Series"> I like series<br>
         </form>
         <p>form-datalist: datalist style</p>
         <input list="movies" name="movies">
-        <datalist id="movies">
+        <datalist class="form-datalist" id="movies">
           <option value="Saving private Ryan"></option>
           <option value="King Arthur"></option>
           <option value="Black hawk down"></option>
