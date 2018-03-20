@@ -1,5 +1,5 @@
 .body{
-    background-color: #0742c2af
+    background-color: green;
 }
 .timeline {
     position: absolute;
@@ -37,49 +37,32 @@
     display:flex;
     height: 6px;
     width: 7px;
-    border: solid 10px black;
-    margin: 0px;
+    border: solid 5px black;
+    margin: 10px;
 }
 .knapp{
     border: solid 4px #ff00ff;
-    width: 25px;
-    height: 25px;
+    background-color: #ff05ff;
+    width: 5px;
+    Top: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin: 10px;
+    z-index: 1;
 }
-.order{
-    order: -1;
-}
-.order1{
-    order: 1;
-}
-.order2{
-    order: 2;
-}
-.order3{
-    order: 3;
-}
-.order4{
-    order: 4;
-}
-.order5{
-    order: 5;
-}
-.order6{
-    order: 6;
-}
-.order7{
-    order: 7;
-}
-.order8{
-    order: 8;
-}
-.order9{
-    order: 9;
-}
-
 .container-timeline-card{
     display:flex;
     height:5em;
     width:7em;
+    justify-content: center;
+    align-items: center;
+}
+.container-timeline-filling{
+    border: solid 3px black;
+    background-color: white;
+}
+.container-timeline-blank{
+    border: solid 3px green;
 }
 
 /*order class, decide which order the container goes in the div (need to be modified)*/
