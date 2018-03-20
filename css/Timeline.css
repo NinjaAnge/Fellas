@@ -1,0 +1,100 @@
+.body{
+    background-color: #0742c2af
+}
+.timeline {
+    position: absolute;
+    max-width: 100000px;
+    margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline{
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+    margin-bottom: 0px;
+    height: 100%;
+}
+.timeline-dots{
+    content: '';
+    position: relative;
+    width: 25px;
+    height: 25px;
+    left: -100%;
+    background-color: rgb(235, 11, 11);
+    border: 4px solid #ff00ff;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+    
+}
+.flex-timeline{
+    display:flex;
+    height: 6px;
+    width: 7px;
+    border: solid 10px black;
+    margin: 0px;
+}
+.knapp{
+    border: solid 4px #ff00ff;
+    width: 25px;
+    height: 25px;
+}
+.order{
+    order: -1;
+}
+.order1{
+    order: 1;
+}
+.order2{
+    order: 2;
+}
+.order3{
+    order: 3;
+}
+.order4{
+    order: 4;
+}
+.order5{
+    order: 5;
+}
+.order6{
+    order: 6;
+}
+.order7{
+    order: 7;
+}
+.order8{
+    order: 8;
+}
+.order9{
+    order: 9;
+}
+
+.container-timeline-card{
+    display:flex;
+    height:5em;
+    width:7em;
+}
+
+/*order class, decide which order the container goes in the div (need to be modified)*/
+
+.order1{
+    display:flex;
+    order:1;
+}
+
+.order2{
+    display:flex;
+    order:2;
+}
+
+.order3{
+    display:flex;
+    order:3;
+}
