@@ -58,7 +58,7 @@
 }
 .menu-container{
   display:none;
-  border: solid 1px green;
+  border: solid 1px #181818;
 }
 .menu-dropdown:hover .menu-container{
   display: block;
