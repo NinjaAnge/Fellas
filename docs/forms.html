@@ -39,13 +39,17 @@
           <input class="form-checkbox" type="checkbox" name="movie" value="Series"> I like series<br>
         </form>
         <p>form-datalist: datalist style</p>
-        <input list="movies" name="movies">
-        <datalist class="form-datalist" id="movies">
-          <option value="Saving private Ryan"></option>
-          <option value="King Arthur"></option>
-          <option value="Black hawk down"></option>
-          <option value="We were soldiers"></option>
-        </input>
+        <input class="form-datalist" list="movies" name="movies">
+        <datalist id="movies">
+          <option value="Saving private Ryan">
+          <option value="King Arthur">
+          <option value="Black hawk down">
+          <option value="We were soldiers">
+          <option value="Star wars episode one the phantom menance">
+        </datalist>
+        <output oninput="value.movies=movies.value">
+      </input>
+
 
 
 
