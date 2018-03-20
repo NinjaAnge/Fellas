@@ -130,7 +130,7 @@
   color: inherit;
 }
 .form-button:hover{
-  background-color:  #FF69B4;
+  background-color: #C0C0C0 ;
 }
 .form-button:disabled {
     background-color: #303030;
